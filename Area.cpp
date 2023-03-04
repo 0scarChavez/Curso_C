@@ -5,7 +5,7 @@ int areafuncion(int base, int altura){
  operacion=base*altura;
  return operacion;
 }
-int perometrofuncion(int base, int altura){
+int perimetrofuncion(int base, int altura){
     int operacion1=0;
     int operacion2=0;
     operacion1=base+altura;

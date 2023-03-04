@@ -24,6 +24,7 @@ v=4;
 if (promedio<5){
 v=5;
 }
+return v;
 }
 
 
@@ -41,6 +42,8 @@ cout<<"introduce tu tercera nota"<<endl;
 cin>>c;
 promedio=Notas(a,b,c);
 cout<<promedio<<endl;
+operacion=rango(promedio); 
+
 switch (operacion)
 {
 case 1:
@@ -61,8 +64,8 @@ cout<<"F";
     break;
 
 case 5:
-cout<<":(  F";
+cout<<":(  G";
     break;
     }
     return 0;
-}
+    }

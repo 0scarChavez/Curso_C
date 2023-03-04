@@ -63,7 +63,7 @@ int main()
        cout<<"Ingrese el segundo valor"<<endl;
        cin>>valor2;
         resultado = multiplicacion(valor1, valor2);
-        cout << "El resultado de la multiplicación es : " << resultado;
+        cout << "El resultado de la multiplicacion es : " << resultado;
 
         break;
         ;
