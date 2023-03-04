@@ -1,11 +1,11 @@
 #include <iostream>
 using namespace std;
-float result(float a,float b,float c){
-float re= 0;
-float fin=0;
-re=a+b+c;
-fin=re/3;
-return fin;
+float Notas(float a,float b,float c){
+float suma= 0;
+float final=0;
+suma=a+b+c;
+final=suma/3;
+return final;
 }
 int rango(float promedio){
 int v=0;
@@ -39,7 +39,7 @@ cout<<"introduce tu segunda nota"<<endl;
 cin>>b;
 cout<<"introduce tu tercera nota"<<endl;
 cin>>c;
-promedio=result(a,b,c);
+promedio=Notas(a,b,c);
 cout<<promedio<<endl;
 switch (operacion)
 {
