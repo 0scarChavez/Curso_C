@@ -3,9 +3,9 @@ using namespace std;
 
 int operacion(int año)
 {
-int ope=0;
-ope=2023-año;
-return ope;
+int operacion1=0;
+operacion1=2023-año;
+return operacion1;
 }
 
 int main(){
