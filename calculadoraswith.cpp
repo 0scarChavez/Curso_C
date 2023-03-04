@@ -19,19 +19,10 @@ int multiplicacion(int a, int b)
     return c;
 }
 
-/*
-funcion para la division
-usen nombres con sentido
-int suma_enteros(){
-int valor1;
-string nombre;
-}
-*/
 
 int division(int a, int b)
 {
     int c = a / b;
-    // int c = a%b;
     return c;
 }
 
